@@ -1,18 +1,50 @@
-# Filmaffinity Ficha Telegram Bot
+# FilmAffinity Telegram Bot
 
-Este bot de Telegram te permite crear y enviar mensajes con fichas de películas de Filmaffinity utilizando el modo inline en tus grupos. Es una herramienta útil para compartir información detallada sobre películas directamente en tus conversaciones de Telegram.
+¡Bienvenido al repositorio del FilmAffinity Telegram Bot! Este bot te permite buscar y compartir fichas de películas y series directamente desde FilmAffinity. Está alojado en Val Town y listo para ayudarte a encontrar la información que necesitas.
 
 ## Características
 
-- **Modo Inline**: Permite buscar y compartir fichas de películas directamente desde la barra de búsqueda de Telegram.
-- **Información Detallada**: Proporciona detalles como título, año, géneros, puntuación, director, reparto y sinopsis.
-- **Integración con Filmaffinity**: Utiliza la base de datos de Filmaffinity para obtener información precisa y actualizada sobre películas.
+- **Búsqueda de Películas y Series:** Encuentra fichas detalladas de películas y series.
+- **Formatos de Salida:** Obtén la información en diferentes formatos según tus necesidades.
+- **Soporte Multilenguaje:** Comandos disponibles en español e inglés.
+- **Modo Inline:** Permite buscar y compartir fichas directamente desde cualquier chat sin necesidad de iniciar una conversación con el bot.
+
+## Cómo Interactuar con el Bot
+
+El bot responde a una serie de comandos que puedes usar para buscar y compartir fichas de películas y series. Aquí tienes una guía de cómo usarlo:
+
+### Comandos Disponibles
+
+- **/mensaje {mi_búsqueda}**: Devuelve la ficha en formato de mensaje de Telegram en español.
+- **/message {mi_búsqueda}**: Devuelve la ficha en formato de mensaje de Telegram en inglés.
+- **/foro {mi_búsqueda}**: Devuelve la ficha en formato BBCODE para usar en foros en español.
+- **/forum {mi_búsqueda}**: Devuelve la ficha en formato BBCODE para usar en foros en inglés.
+
+### Modo Inline
+
+Para usar el bot en modo inline, simplemente escribe `@nombre_del_bot` seguido de tu término de búsqueda en cualquier chat. El bot te mostrará una lista de coincidencias directamente en el chat.
+
+### Pasos para Usar el Bot
+
+1. **Iniciar el Bot:**
+   - Envía el comando `/start` para iniciar la interacción con el bot.
+
+2. **Buscar una Película o Serie:**
+   - Usa uno de los comandos mencionados seguido del término de búsqueda. Por ejemplo:
+     ```
+     /mensaje Clerks
+     ```
+
+3. **Seleccionar la Coincidencia:**
+   - El bot te mostrará una lista de coincidencias. Selecciona la que deseas para obtener la ficha correspondiente.
+
 
 ## Alojamiento
 
-El código es un script diseñado para ejecutarse en [Val Town](https://val.town/) como un servicio HTTP. Val Town es una plataforma que facilita el despliegue y la ejecución de scripts en la nube.
+Este bot está alojado en Val Town, lo que garantiza una alta disponibilidad y rendimiento.
 
-## Pasos para Configurar el Bot
+
+## Pasos para crear tu propio Bot
 
 ### 1. Crear el Bot en @BotFather
 
@@ -46,12 +78,8 @@ Reemplaza `{TELEGRAM_BOT_TOKEN}` con el token que obtuviste de `@BotFather` y `{
 2. **Pega el contenido** en el editor de código de Val Town.
 3. **Guarda los cambios** y asegúrate de que el script esté configurado para ejecutarse como un servicio HTTP.
 
-## Ejemplo de Uso
+## Contribuir
 
-1. **Abre Telegram** y busca tu bot en la barra de búsqueda.
-2. **Escribe el nombre de una película** en la barra de búsqueda inline.
-3. **Selecciona la película** que deseas compartir de los resultados que aparecen.
-4. **Envía el mensaje** con la ficha de la película a tu grupo o conversación.
+Si deseas contribuir al desarrollo de este bot, siéntete libre de hacer un fork de este repositorio y enviar tus pull requests. ¡Toda ayuda es bienvenida!
 
-![captura](https://i.imgur.com/kJszuaL.png)
-![captura](https://i.imgur.com/6aLB3Sh.png)
+¡Espero que disfrutes usando el FilmAffinity Telegram Bot! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue en este repositorio.
