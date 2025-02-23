@@ -549,7 +549,7 @@ export default async function (req: Request): Promise<Response> {
     try {
         const cuerpo = await req.text();
         const solicitud = JSON.parse(cuerpo);
-        console.log(solicitud);
+        //console.log(solicitud);
         
 
         // INLINE
